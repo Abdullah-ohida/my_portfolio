@@ -22,9 +22,7 @@ nav {
     top: 0;
 }
 
-.holder {
-    float: right;
-}
+
 
 .onclick {
     display: inline-block;
@@ -120,6 +118,13 @@ header p {
     text-align: center;
     color: rgb(236, 227, 227);
     font-size: 40px;
+   
+}
+
+.underline{
+    border-bottom: 3px solid currentColor;
+    display: inline-block;
+
 }
 
 img {
@@ -184,7 +189,7 @@ button:hover{
 
 .wrapper-2{
     background-color:  rgba(27, 25, 25, 0.8);
-    min-height: 80vh;
+    min-height: 90vh;
     width: 100%;
     text-align: center;
 }
@@ -234,4 +239,145 @@ button:hover{
 .hr{
     border: 2px solid rgb(231, 71, 71);
 }
+footer{
+    padding: 2em 0;
+}
+
+footer ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer li{
+    list-style: none;
+    color: white;
+    font-weight: lighter;
+}
+ footer li a{
+     color: white;
+     text-decoration: none;
+     font-weight: lighter;
+ }
+
+ @media screen and (max-width: 800px){
+
+
+    .holder li {
+        padding: 0 10px;
+       }  
+ .holder li a {
+           padding: 10px 20px;
+           font-size: 20px;   
+       }
+       .wrapper h1 {
+        padding-top: 1.5em;
+        font-size: 35px;
+       
+    }
+    .underline{
+        border-bottom: 2px solid currentColor;
+    }
+
+    img {
+        width: 350px;
+        height: 350px;
+        object-fit: cover;
+        
+    }
+
+header h1 {
+    font-size: 40px;
+}
+
+header p {
+    font-size: 20px;
+}
+
+.wrapper-2{
+  
+    min-height: 50vh;
+    width: auto;
+   
+}
+.wrapper-2 article{  
+    padding-top: 4em;
+}
+
+.wrapper-2 article h1{
+    font-size: 50px;
+}
+
+.wrapper-2 p {
+    font-size: 20px;
+}
+.font{
+    padding: 2em 0; 
+}
+
+.font li{
+    padding: 1em;   
+}
+
+.font li a{
+    font-size: 20px;
+}
+footer{
+    padding-top: 3em;
+}
+ footer li {
+    font-size: 18px;
+ }
+ }
+
+ @media screen and (max-width: 500px){
+    .holder li {
+        padding: 0 8px;
+       }  
+ .holder li a {
+           font-size: 15px;   
+       }
+       .wrapper h1 {
+        font-size: 25px;
+    }
+   
+    img {
+        width: 340px;
+        height: 350px;   
+    }
+
+header h1 {
+    font-size: 35px;
+}
+
+header p {
+    font-size: 15px;
+}
+
+.wrapper-2 article h1{
+    font-size: 35px;
+}
+
+.wrapper-2 p {
+    font-size: 15px;
+}
+
+.font li{
+    padding: .5em;   
+}
+
+.font li a{
+    font-size: 15px;
+}
+footer{
+    padding-top: 2em;
+}
+
+footer ul{
+    display: block;
+}
+ footer li {
+    font-size: 15px;
+    padding: .5em;
+ }
 
